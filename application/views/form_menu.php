@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container"  align="center">
-	<form action="./reg_menu" method="post">
+	<form action="./manuproject/reg_menu" method="post">
 	<h1>เพิ่มเมนู</h1>
 
 	<div id="body"  align="center">

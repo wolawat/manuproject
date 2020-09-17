@@ -29,11 +29,11 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `menu` (
-  `menu_id` char(5) COLLATE utf8_thai_520_w2 NOT NULL,
-  `menu_name` varchar(255) COLLATE utf8_thai_520_w2 NOT NULL,
+  `menu_id` char(5) NOT NULL,
+  `menu_name` varchar(255) NOT NULL,
   `mcategory_id` int(2) NOT NULL,
-  `mshop_id` char(5) COLLATE utf8_thai_520_w2 NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_thai_520_w2;
+  `mshop_id` char(5)  NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ;
 
 --
 -- Dumping data for table `menu`
